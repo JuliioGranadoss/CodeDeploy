@@ -2,7 +2,7 @@ name: Implementar en AWS CodeDeploy
 
 on:
   workflow_run:
-    workflows: ["Java CI con Gradle"]
+    workflows: ["Build and Deploy Java Application"]
     types: 
       - completed
 
